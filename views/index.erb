@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Encrypt Text</title>
+	<link href="/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body>
+	<h1>Encryption Tool</h1>
+	<div class="content">
+	<form action='/encrypt' method='post'>
+  		Text: 
+  		<textarea name="words" cols=40 rows=4>Input message here</textarea>
+
+  		<br>Key: 
+  		<input type="text" name="key">
+  		<input type="submit">
+	</form>
+	Looking for the <b>Decryption Tool</b>?
+	<form action='/decryption' method='post'>
+		<input type="submit" value="Click Here">
+	</form>
+	</div>
+</body>
+</html>

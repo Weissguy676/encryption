@@ -1,0 +1,59 @@
+ body {
+	background-color: #F8F8FF;
+}
+
+.container {
+	margin: 0 auto;
+	width: 60%;
+	height: 300px;
+	background-color: #7C7877;
+	border-radius: 5%;
+	position: relative;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	font-family: helvetica;
+	color: #ABD0CE;
+}
+
+body{
+	display: block;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+form {
+	margin: 0 auto;
+	padding: 0 25%;
+	width: 50%;
+	/*position: absolute;*/
+}
+
+input[name=words] {
+	width: 50%;
+	height: 60px;
+}
+
+input[name=key] {
+	width: 25%;
+}
+
+
+input[type=submit]{
+	width: 20%;
+}
+
+div[name=results]{
+	text-align: center;
+	font-family: helvetica;
+}
+
+
+
+
+
+
